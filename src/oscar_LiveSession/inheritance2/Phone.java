@@ -1,7 +1,20 @@
 package oscar_LiveSession.inheritance2;
 
 public class Phone {
+    String make;
+    String model;
+    double price;
 
+    public Phone(String make, String model, double price) {
+        this.make = make;
+        this.model = model;
+        this.price = price;
+    }
+
+    public Phone(){
+
+
+    }
 }
 /*
 Assume the existence of a Phone class that is a super class for CameraPhone class.
